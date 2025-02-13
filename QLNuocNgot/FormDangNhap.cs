@@ -16,5 +16,13 @@ namespace QLNuocNgot
         {
             InitializeComponent();
         }
+
+        private void btnDangKy_Click(object sender, EventArgs e)
+        {
+            FormDangKy registerForm = new FormDangKy(); // Tạo Form đăng ký
+            this.Hide(); // Ẩn Form đăng nhập
+            registerForm.ShowDialog(); // Hiển thị Form đăng ký (chờ đóng)
+            this.Show(); // Hiện lại Form đăng nhập khi Form đăng ký đóng
+        }
     }
 }

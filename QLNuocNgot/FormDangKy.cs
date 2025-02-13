@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace QLNuocNgot
 {
-    public partial class formdangki : Form
+    public partial class FormDangKy : Form
     {
-        public formdangki()
+        public FormDangKy()
         {
             InitializeComponent();
         }

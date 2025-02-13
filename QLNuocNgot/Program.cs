@@ -16,7 +16,7 @@ namespace QLNuocNgot
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new formdangki());
+            Application.Run(new FormDangNhap());
         }
     }
 }
